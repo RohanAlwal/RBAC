@@ -23,7 +23,7 @@ const createPermission = async(req, res) => {
 const createRole = async(req, res) => {
     try{
         const { name, permissionIds } = req.body;
-        if(!name || typeof name !== 'String' || name.trim() === ''){
+        if(!name || typeof name !== 'string' || name.trim() === ''){
             return res.status(400).json({message: "Role name is required and must be a non empty string !!"});
         }
         if(!Array.isArray(permissionIds) || permissionIds.length === 0){
