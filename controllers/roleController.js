@@ -1,4 +1,4 @@
-const Permission = require('../models/permission');
+const Permission = require('../models/permission')
 const mongoose = require('mongoose');
 const Role = require('../models/role');
 const RBAC_User = require('../models/user');

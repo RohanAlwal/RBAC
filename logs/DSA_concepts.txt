@@ -28,14 +28,7 @@ Here's how we can smartly apply DSA:
 
 ---
 
-### ✅ 2. **Graph for Role Inheritance (Advanced Feature)**
-
-**Problem:** What if roles inherit from each other?
-
-> Example: `admin` inherits from `editor`, which inherits from `user`.
-
-This creates a **Directed Acyclic Graph (DAG)**.
-
+### 0
 **Optimized DSA Approach:**
 
 * Model roles as **nodes**, edges as inheritance.

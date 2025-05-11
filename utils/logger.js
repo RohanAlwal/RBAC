@@ -8,4 +8,6 @@ const logUnauthorizedAccess = (userId, endpoint, reason) => {
     fs.appendFileSync(logPath, entry);
 };
 
+
+
 module.exports = { logUnauthorizedAccess };
